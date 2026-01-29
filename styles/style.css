@@ -121,6 +121,7 @@ input:valid, select:valid, textarea:valid  {
 
 div.container-gender {
     display: flex;
+    align-content: center;
 }
 
 div.container-gender > label{
