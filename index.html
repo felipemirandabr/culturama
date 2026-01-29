@@ -30,21 +30,23 @@
                 <input type="email" name="email" id="email" required><br>
                 <label for="phoneNumber">Telefone</label><br>
                 <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="DDD + número sem espaços ou hífen" pattern="[0-9]{11}" maxlength="11"><br>
-                <p>Preencha com 11 dígitos no formato: DDD + número sem espaços ou hífen.</p>
+                <small>Preencha com 11 dígitos no formato: DDD + número sem espaços ou hífen.</small>
                 <label for="photo">Upload de foto</label><br>
                 <input type="file" accept="image/*" name="photo" id="photo"><br>
-                <p>Envie uma foto no formato PNG ou JPEG</p>
+                <small>Envie uma foto no formato PNG ou JPEG</small>
             </fieldset>
             <!-- Perfil -->
             <fieldset>
                 <legend>Perfil</legend>
                 <h2>Gênero:</h2>
-                <input type="radio" name="gender" id="fem" value="Feminino">
-                <label for="fem">Feminino</label>
-                <input type="radio" name="gender" id="masc" value="Masculino">
-                <label for="masc">Masculino</label>
-                <input type="radio" name="gender" id="other" value="other">
-                <label for="other">Prefiro não informar</label><br>
+                <div class="container-gender">
+                    <input type="radio" name="gender" id="fem" value="Feminino">
+                    <label for="fem">Feminino</label>
+                    <input type="radio" name="gender" id="masc" value="Masculino">
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other">Prefiro não informar</label>
+                </div><br>
                 <label for="marital-status">Estado Civil</label><br>
                 <select id="marital-status" name="marital-status">
                     <option>Selecione...</option>
