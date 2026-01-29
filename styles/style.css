@@ -73,9 +73,8 @@ input[type="color"] {
 }
 
 input[type="date"] {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px -10px 10px -10px;
+    width: 100% -10px;
+    padding: 10px 5px;
 }
 
 textarea {
