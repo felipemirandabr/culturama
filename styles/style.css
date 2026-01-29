@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+}
+
+header > img {
+    width: 100px;
+}
+
+h1 {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    box-sizing: border-box;
+    max-width: 700px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 25px auto 100px auto;
+}
+
+fieldset {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 5px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin: 0 0 20px 0;
+}
+
+
+input[type="color"] {
+    width: 40px;
+    padding: 0 5px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+fieldset > p {
+    font-size: 13px;
+}
+
+fieldset > h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+form > button {
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: green;
+    color: white;
+}
+
+button[type="reset"]:hover {
+    background-color: red;
+    color: white;
+}
+
+input:invalid, select:invalid, textarea:invalid {
+    border-color: red;
+}
+
+
+input:valid, select:valid, textarea:valid  {
+    border-color: green;
+}
